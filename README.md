@@ -1,5 +1,5 @@
 # ImageStitcher
-Script written for gluing JPG&PNG images.
+Script written by ChatGPT for gluing JPG&PNG images.
 
 ```
 pip install pillow
