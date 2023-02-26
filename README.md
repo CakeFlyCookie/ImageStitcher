@@ -1,9 +1,11 @@
 # ImageStitcher
-Script written for gluing images.
+Script written for gluing JPG&PNG images.
 
 ```
 pip install pillow
 ```
+
+**Drag, drop and run .py into the folder where the images to be glued are located**
 
 V1 - Simply glues JPG and PNG in 1 row
 
