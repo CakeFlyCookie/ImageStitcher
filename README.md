@@ -2,7 +2,7 @@
 Script written for gluing images.
 
 
-'''pip install pillow'''
+\`\`\`pip install pillow\`\`\`
 
 V1 - Simply glues JPG and PNG in 1 row
 
