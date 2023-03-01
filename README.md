@@ -5,7 +5,7 @@ Script written by ChatGPT for gluing JPG&PNG images.
 pip install pillow
 ```
 
-**USAGE: Drag, drop and run .py into the folder where the images to be glued are located**
+**USAGE: Drag and drop into the folder where the images to be glued are located and run .py**
 
 V1 - Simply glues JPG and PNG in 1 row
 ![V1](https://raw.githubusercontent.com/CakeFlyCookie/ImageStitcher/main/Examples/v1.png)
