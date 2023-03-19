@@ -2,8 +2,11 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 from tqdm import tqdm
 
-# Собираем список всех файлов с расширениями .jpg и .png в текущей директории
-images = [f for f in os.listdir('.') if f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg') or f.endswith('.webp') or f.endswith('.tiff') or f.endswith('.bmp')]
+# Получаем список всех поддерживаемых расширений файлов
+supported_formats = [f.lower() for f in Image.registered_extensions()]
+
+# Собираем список всех файлов с поддерживаемыми расширениями в текущей директории
+images = [f for f in os.listdir('.') if f.lower().endswith(tuple(supported_formats))]
 
 # Если изображений нет, выводим сообщение об ошибке и завершаем скрипт
 if not images:
