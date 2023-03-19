@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 
 # Собираем список всех файлов с расширениями .jpg и .png в текущей директории
-images = [f for f in os.listdir('.') if f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg')]
+images = [f for f in os.listdir('.') if f.endswith('.jpg') or f.endswith('.png') or f.endswith('.jpeg') or f.endswith('.webp') or f.endswith('.tiff') or f.endswith('.bmp')]
 
 # Если изображений нет, выводим сообщение об ошибке и завершаем скрипт
 if not images:
