@@ -2,7 +2,7 @@
 Script written by ChatGPT for gluing JPG&PNG images.
 
 ```
-pip install pillow tqdm pillow-avif-plugin
+pip install pillow==9.5.0 tqdm pillow-avif-plugin
 ```
 
 **USAGE: Drag and drop into the folder where the images to be glued are located and run .py**
