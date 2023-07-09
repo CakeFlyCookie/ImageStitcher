@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 from tqdm import tqdm
+import pillow_avif
 
 # Получаем список всех поддерживаемых расширений файлов
 supported_formats = [f.lower() for f in Image.registered_extensions()]
